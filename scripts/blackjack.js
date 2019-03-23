@@ -36,6 +36,7 @@ function dealCards () {
     while (x < 2) {
         x += 1;
 
+        //shuffles cards
         shuffleArray(deck);
         
         //pop and push cards to dealerHand
